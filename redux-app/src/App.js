@@ -11,7 +11,7 @@ function App() {
       <h1>The count is {count} </h1>
       <button onClick={() =>dispatch(increment())}>Increment</button>
       <button onClick={() =>dispatch(decrement())}>Decrement</button>
-      <button onClick={() =>dispatch(incrementByAmount(22))}>Increment by 22</button>
+      <button onClick={() =>dispatch(incrementByAmount(22 ))}>Increment by 22</button>
     </div>
   );
 }
